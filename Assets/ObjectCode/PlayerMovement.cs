@@ -14,9 +14,11 @@ public class PlayerMovement : MonoBehaviour
     public bool grounded;
     public BoxCollider2D groundCheck;
     public LayerMask groundMask;
+    public float speedMultiplier;
 
     float xInput;
     float yInput;
+
     private bool isSpeedBoosted = false;
 
     // Start is called before the first frame update
